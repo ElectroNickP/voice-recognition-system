@@ -1,0 +1,102 @@
+# Audio files (large files, not needed in repository)
+*.wav
+*.mp3
+*.ogg
+*.flac
+*.aac
+*.m4a
+
+# Test recordings and synthesized speech
+*_rec_*.wav
+*_synth_*.wav
+*_recorded.wav
+*_synthesized.wav
+*_test*.wav
+demo_*.wav
+test_*.wav
+debug_*.wav
+improved_*.wav
+sync_*.wav
+loud_*.wav
+human_*.wav
+sox_*.wav
+opt_*.wav
+high_acc_*.wav
+multi_test_*.wav
+perfect_*.wav
+restore_*.wav
+final_*.wav
+
+# Spectrograms and audio analysis
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Temporary files
+/tmp/
+*.tmp
+*.temp
+
+# Results and logs
+*_results.txt
+*_feedback.txt
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Whisper models (large files)
+whisper.cpp/models/*.bin
+whisper.cpp/models/*.gguf
+
+# Piper models (large files)
+piper/*.onnx
+piper/*.json
+
+# Keep only essential files
+!whisper.cpp/models/README.md
+!piper/README.md 

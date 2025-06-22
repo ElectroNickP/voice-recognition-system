@@ -1,0 +1,27 @@
+# Voice Recognition System - Dependencies
+
+# System packages (install with apt)
+# sox - Audio processing
+# alsa-utils - ALSA utilities
+# pulseaudio - Audio server
+# bc - Basic calculator
+# wget - File downloader
+# make - Build system
+
+# Python packages (if using Python components)
+# No Python dependencies required for current version
+
+# External dependencies
+# - Whisper.cpp: https://github.com/ggerganov/whisper.cpp
+# - Piper TTS: https://github.com/rhasspy/piper
+# - ALSA: https://www.alsa-project.org/
+# - SoX: http://sox.sourceforge.net/
+
+# Installation commands:
+# sudo apt update
+# sudo apt install -y sox alsa-utils pulseaudio bc wget make
+
+# Model files (download separately):
+# - whisper.cpp/models/ggml-base.bin (Whisper model)
+# - piper/ru_RU-irina-medium.onnx (Piper model)
+# - piper/ru_RU-irina-medium.onnx.json (Piper config) 
